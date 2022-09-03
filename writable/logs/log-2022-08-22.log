@@ -1,0 +1,32 @@
+CRITICAL - 2022-08-22 14:00:02 --> unlink(assets/img/services/services-sample.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/i...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Yura-Company\app\Controllers\Admin\Services.php(44): unlink('assets/img/serv...')
+#2 C:\xampp\htdocs\Yura-Company\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Admin\Services->drop('2', 'services-sample...')
+#3 C:\xampp\htdocs\Yura-Company\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#4 C:\xampp\htdocs\Yura-Company\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Yura-Company\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Yura-Company\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-08-22 14:00:11 --> unlink(assets/img/services/services-sample.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/i...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Yura-Company\app\Controllers\Admin\Services.php(44): unlink('assets/img/serv...')
+#2 C:\xampp\htdocs\Yura-Company\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Admin\Services->drop('3', 'services-sample...')
+#3 C:\xampp\htdocs\Yura-Company\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#4 C:\xampp\htdocs\Yura-Company\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Yura-Company\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Yura-Company\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-08-22 21:15:03 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-08-22 21:15:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\Yura-Company\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Yura-Company\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Yura-Company\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Yura-Company\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\Yura-Company\app\Controllers\LandingPages.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\Yura-Company\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\LandingPages->index()
+#6 C:\xampp\htdocs\Yura-Company\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LandingPages))
+#7 C:\xampp\htdocs\Yura-Company\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Yura-Company\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Yura-Company\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}

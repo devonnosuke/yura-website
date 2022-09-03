@@ -1,0 +1,52 @@
+ERROR - 2022-02-17 10:34:13 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-02-17 10:34:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/vendor/codeigniter4/framework/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/vendor/codeigniter4/framework/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/vendor/codeigniter4/framework/system/BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/app/Controllers/LandingPages.php(57): CodeIgniter\BaseModel->findAll()
+#5 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\LandingPages->contact()
+#6 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LandingPages))
+#7 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol15_7/epizy.com/epiz_30782728/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-02-17 10:34:15 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-02-17 10:34:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/vendor/codeigniter4/framework/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/vendor/codeigniter4/framework/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/vendor/codeigniter4/framework/system/BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/app/Controllers/LandingPages.php(16): CodeIgniter\BaseModel->findAll()
+#5 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\LandingPages->index()
+#6 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LandingPages))
+#7 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol15_7/epizy.com/epiz_30782728/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-02-17 10:34:16 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-02-17 10:34:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/vendor/codeigniter4/framework/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/vendor/codeigniter4/framework/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/vendor/codeigniter4/framework/system/BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/app/Controllers/LandingPages.php(32): CodeIgniter\BaseModel->findAll()
+#5 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\LandingPages->portfolio()
+#6 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LandingPages))
+#7 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol15_7/epizy.com/epiz_30782728/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-02-17 10:34:17 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-02-17 10:34:17 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/vendor/codeigniter4/framework/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/vendor/codeigniter4/framework/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/vendor/codeigniter4/framework/system/BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/app/Controllers/LandingPages.php(16): CodeIgniter\BaseModel->findAll()
+#5 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\LandingPages->index()
+#6 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LandingPages))
+#7 /home/vol15_7/epizy.com/epiz_30782728/htdocs/landingpages/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol15_7/epizy.com/epiz_30782728/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
