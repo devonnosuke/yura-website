@@ -1,5 +1,5 @@
 <!-- *** Footer Section *** -->
-<footer class="page-footer cyan darken-3">
+<footer class="page-footer blue-default">
     <div class="container">
         <div class="row">
             <?php $col = 'l6'; ?>

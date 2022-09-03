@@ -1,9 +1,9 @@
     <!-- Back to top button -->
-    <a class="btn-to-top btn btn-medium waves-effect grey darken-3 waves-dark tooltipped back-to-top" href="#home" data-position="left" data-delay="50" data-tooltip="Back to top"><i class="bi bi-chevron-bar-up"></i></a>
+    <a class="btn-to-top btn btn-medium waves-effect blue-default waves-dark tooltipped back-to-top" href="#home" data-position="left" data-delay="50" data-tooltip="Back to top"><i class="bi bi-chevron-bar-up"></i></a>
 
     <!-- **** Navbar Secion ***-->
     <div class="navbar-fixed" id="navbar">
-        <nav class="nav-index grey darken-3">
+        <nav class="nav-index blue-default">
             <div class=" container">
                 <div class="nav-wrapper">
                     <?php
