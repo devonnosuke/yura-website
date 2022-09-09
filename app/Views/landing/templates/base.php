@@ -3,10 +3,10 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
-  <meta name="description" content="<?= $personal->about_text ?>">
-  <meta name="og:title" content="<?= $personal->about_text ?>">
+  <meta name="description" content="Buat Webiste dan Aplikasi Sesuai Kebutuhan kamu di Yura Company. Jasa Pengembangan dan pembuatan Website di Kota Palu, pembuatan Aplikasi di Kota Palu Serta Penjualan Hosting dan domain terbaik.">
+  <meta name="og:title" content="Buat Webiste dan Aplikasi Sesuai Kebutuhan kamu di Yura Company">
   <meta name="og:url" content="https://yuracompany.com">
-  <meta name="og:description" content="<?= $personal->about_text ?>">
+  <meta name="og:description" content="Jasa Pengembangan dan pembuatan Website di Kota Palu, pembuatan Aplikasi di Kota Palu Serta Penjualan Hosting dan domain terbaik.">
   <meta name="og:image" content="<?= base_url() ?>/img/front-KartuNama.png">
   <title><?= $title ?></title>
   <!-- CSS Materialize -->
