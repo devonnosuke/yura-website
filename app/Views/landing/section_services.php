@@ -1,7 +1,7 @@
 <!-- *** Skills Section *** -->
 <div class="parallax-container scrollspy" id="services">
     <div class="parallax">
-        <img src="<?= base_url() ?>/img/front-KartuNama.png" alt="Paralax Image kartu nama yura">
+        <img src="<?= base_url() ?>/img/wallpaper4.png" alt="Paralax Image kartu nama yura">
     </div>
     <div class="row container">
         <h2 class="center white-text">Layanan Kami</h2>
