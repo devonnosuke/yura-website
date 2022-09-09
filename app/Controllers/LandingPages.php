@@ -21,7 +21,7 @@ class LandingPages extends BaseController
 			'services' => $this->servicesModels->findAll(),
 			'cta' => $this->ctaModels->findAll(),
 			'faqs' => $this->faqModels->findAll(),
-			'title' => 'Landing Pages'
+			'title' => 'Jasa Pengembangan dan pembuatan Website Dan Aplikasi di Kota Palu | Yura Company'
 		];
 		return view('landing/index', $data);
 	}
