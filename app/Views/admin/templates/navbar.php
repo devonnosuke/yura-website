@@ -59,6 +59,12 @@
             </a>
         </li>
         <li class="divider"></li>
+        <li class="menu-item <?= (isset($certificate_active) ? $certificate_active : '') ?>">
+            <a class="waves-effect waves-light white-text menu-link" href="<?= base_url() ?>/admin/certificate">
+                <i class="white-text bi bi-patch-check-fill"></i>Certificate
+            </a>
+        </li>
+        <li class="divider"></li>
         <li class="menu-item">
             <a class="waves-effect waves-red white-text logout-btn" href="<?= base_url('logout') ?>">
                 <i class="bi bi-box-arrow-left white-text">arrow_back</i>Logout

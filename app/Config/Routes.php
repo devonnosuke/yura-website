@@ -51,6 +51,19 @@ $routes->delete('/admin/skill/(:any)', 'Admin\Skills::drop/$1', ['filter' => 'ro
 $routes->post('/admin/skill_save', 'Admin\Skills::save', ['filter' => 'role:admin']);
 // $routes->get('/admin/skill_drop/(:num)', 'Admin\Skills::drop/$1', ['filter' => 'role:admin']);
 
+
+// $routes->get('/certificate/pkl/YAD001PKL2022)', 'Certificate::show/$1');
+// $routes->get('/certificate/kans/KNS001JS2022', 'Certificate::show/$1');
+// $routes->get('/certificate/kans/KNS001HTMLCSS2022', 'Certificate::show/$1');
+
+$routes->get('/certificate/pkl/(:any)', 'Certificate::show/$1');
+$routes->get('/certificate/kans/(:any)', 'Certificate::show/$1');
+
+// $routes->get('/admin/certificate', 'Admin\Certificate::index', ['filter' => 'role:admin']);
+// $routes->get('/admin/certificate/drop/(:any)', 'Admin\Certificate::index', ['filter' => 'role:admin']);
+// $routes->delete('/admin/certificate/(:any)', 'Admin\Certificate::drop/$1', ['filter' => 'role:admin']);
+// $routes->post('/admin/certificate_save', 'Admin\Certificate::save', ['filter' => 'role:admin']);
+
 $routes->get('/admin/contacts', 'Admin\Contacts::index', ['filter' => 'role:admin']);
 $routes->get('/admin/contacts/drop/(:any)', 'Admin\Contacts::index', ['filter' => 'role:admin']);
 $routes->delete('/admin/social/(:any)', 'Admin\Contacts::drop/$1', ['filter' => 'role:admin']);
@@ -83,7 +96,6 @@ $routes->get('/admin/educational/drop/(:any)', 'Admin\Educational::index', ['fil
 $routes->delete('/admin/educational/(:any)', 'Admin\Educational::drop/$1', ['filter' => 'role:admin']);
 $routes->post('/admin/educational/save', 'Admin\Educational::save', ['filter' => 'role:admin']);
 
-$routes->get('/admin/faq', 'Admin\Faq::index', ['filter' => 'role:admin']);
 $routes->get('/admin/faq/drop/(:any)', 'Admin\Faq::index', ['filter' => 'role:admin']);
 $routes->delete('/admin/faq/(:any)', 'Admin\Faq::drop/$1', ['filter' => 'role:admin']);
 $routes->post('/admin/faq_save', 'Admin\Faq::save', ['filter' => 'role:admin']);
