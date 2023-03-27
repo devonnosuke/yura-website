@@ -25,7 +25,7 @@ class Certificate extends BaseController
         $data['title'] = 'Kans Certificate by Yura';
 
         // Return the view with data
-        return view('landing/certificate', $data);
+        return view('landing/certificate-kans', $data);
     }
 
     // This the default method of controller
