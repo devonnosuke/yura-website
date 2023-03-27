@@ -11,7 +11,18 @@ class Certificate extends BaseController
     {
         $data['SN'] = $SN;
         // Set title page
-        $data['title'] = 'Certificate by Yura';
+        $data['title'] = 'PKL Certificate by Yura';
+
+        // Return the view with data
+        return view('landing/certificate', $data);
+    }
+
+    // This the default method of controller
+    public function showKans($SN)
+    {
+        $data['SN'] = $SN;
+        // Set title page
+        $data['title'] = 'Kans Certificate by Yura';
 
         // Return the view with data
         return view('landing/certificate', $data);

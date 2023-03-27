@@ -31,8 +31,7 @@
             <!-- <h2 class="light grey-text text-darken-3 center-align" style="margin: 1.78rem 0">Sertifikat</h2> -->
             <div class="col s12">
                 <div class="layered-card">
-                    <img src="<?= base_url() ?>/certificate/pkl/<?= $SN ?>.png" alt="<?= $SN ?>" class="responsive-img cert-img">
-                    <img src="<?= base_url() ?>/certificate/pkl/<?= $SN ?>-back.png" alt="<?= $SN ?>" class="responsive-img cert-img">
+                    <img src="<?= base_url() ?>/certificate/kans/<?= $SN ?>.png" alt="<?= $SN ?>" class="responsive-img cert-img">
                 </div>
                 <!-- <div class="text-content flow-text justify-align">
                 </div> -->

@@ -57,7 +57,7 @@ $routes->post('/admin/skill_save', 'Admin\Skills::save', ['filter' => 'role:admi
 // $routes->get('/certificate/kans/KNS001HTMLCSS2022', 'Certificate::show/$1');
 
 $routes->get('/certificate/pkl/(:any)', 'Certificate::show/$1');
-$routes->get('/certificate/kans/(:any)', 'Certificate::show/$1');
+$routes->get('/certificate/kans/(:any)', 'Certificate::showKans/$1');
 
 // $routes->get('/admin/certificate', 'Admin\Certificate::index', ['filter' => 'role:admin']);
 // $routes->get('/admin/certificate/drop/(:any)', 'Admin\Certificate::index', ['filter' => 'role:admin']);
